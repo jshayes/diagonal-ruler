@@ -1,0 +1,28 @@
+{
+  "id": "diagonal-ruler",
+  "title": "Diagonal Ruler",
+  "description": "Use an alternative distance calculation for angles that approximated the pythagorean distance",
+  "authors": [
+    {
+      "name": "Justin"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/ruipin/fvtt-lib-wrapper/master/module.json"
+      }
+    ]
+  },
+  "esmodules": [
+    "/scripts/module.js"
+  ],
+  "download": "https://github.com/jshayes/diagonal-ruler/archive/refs/tags/v0.0.1.zip"
+}
